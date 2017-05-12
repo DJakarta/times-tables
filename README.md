@@ -1,4 +1,4 @@
-Times tables visualization
+# Times tables visualization
 
 Tool for generating and animating times tables. Inspired by Mathologer (https://www.youtube.com/channel/UC1_uAIS3r8Vu6JjXWvastJg).
 
