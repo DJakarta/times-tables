@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Times table</title>
+		<link rel="stylesheet" type="text/css" href="main.css">
+	</head>
+
+	<body>
+		<canvas id="canvas" height="600" width="1300"></canvas>
+		<table>
+			<tr>
+				<td>
+				</td>
+				<td>
+					start
+				</td>
+				<td>
+					end
+				</td>
+				<td>
+					speed
+				</td>
+			</tr>
+			<tr>
+				<td>
+					modulo
+				</td>
+				<td>
+					<input type="number" value="2" id="modStart" />
+				</td>
+				<td>
+					<input type="number" value="20000" id="modEnd" />
+				</td>
+				<td>
+					<input type="number" value="5" id="modSpeed" />
+				</td>
+				<td>
+					<input type="button" value="Set animation parameters" onclick="getAnimationParameters()" />
+				</td>
+				<td>
+				
+				</td>
+				<td>
+					<input type="number" value="1000" id="modulo" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					times
+				</td>
+				<td>
+					<input type="number" value="2" id="timesStart" />
+				</td>
+				<td>
+					<input type="number" value="100" id="timesEnd" />
+				</td>
+				<td>
+					<input type="number" value="3" id="timesSpeed" />
+				</td>
+				<td>
+					<input type="button" value="Restart animation" onclick="restartAnimation()" />
+				</td>
+				<td>
+				
+				</td>
+				<td>
+					<input type="number" value="15" id="times" />
+				</td>
+				<td>
+					<input type="button" value="Draw" onclick="getAndDraw()" />
+				</td>
+			</tr>
+		</table>
+		<script type="text/javascript" src="main.js"></script>
+	</body>
+</html>
